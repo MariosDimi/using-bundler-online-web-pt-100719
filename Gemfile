@@ -11,3 +11,6 @@ gem "pry", :group => "development"
 group :test do
   gem "rspec"
 end
+
+require "awesome_print"
+ap object, options = {}
